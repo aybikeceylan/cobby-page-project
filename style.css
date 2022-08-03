@@ -1,0 +1,97 @@
+.container{
+    background-image: url(https://www.uzaktanegitim.com/images/blog/muhendisler-ne-yapar-muhendis-turleri-ve-sorumluluklari.png);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    height: 400px;
+}
+.cobby{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+
+}
+.cobby ul{
+    display: flex;
+    list-style: none;
+    width: 50%;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.cobby h1{
+    width: 50%;
+    padding-left: 40px;
+    
+}
+
+.heading{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    color: ghostwhite;
+}
+.values{
+    display: flex;
+    padding: 100px 150px 50px 150px;
+    justify-content: space-around;
+    background-color: rgb(243, 235, 235);
+    align-items: center;
+}
+.box{
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    padding-top: 50px;
+}
+.box h1{
+    color: #e65d28;
+}
+header{
+    position: relative;
+}
+.contact{
+    position: absolute;
+    display: flex;
+    width: 90%;
+    background-color: white;
+    bottom: 358px;
+    margin: 0px 60px 0px 60px;
+}
+.send{
+    width: 33%;
+    padding-left: 40px;
+}
+.send .p1{
+    color: #dfe7e0;
+}
+
+
+
+
+
+.button1{
+    background-color: #e65d28;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button2{
+    background-color: #8a968c;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
