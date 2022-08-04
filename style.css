@@ -1,6 +1,9 @@
 *{
     box-sizing: border-box;
 }
+.body{
+    width: 100%;
+}
 .container{
     background-image: url(https://www.uzaktanegitim.com/images/blog/muhendisler-ne-yapar-muhendis-turleri-ve-sorumluluklari.png);
     position: relative;
@@ -59,7 +62,7 @@ header{
     display: flex;
     width: 90%;
     background-color: white;
-    bottom: 358px;
+    bottom: 310px;
     margin: 0px 60px 0px 60px;
 }
 .send{
@@ -77,9 +80,9 @@ header{
 .photo{
     display: flex;
     margin: 100px;
+    height: 400px ;
 }
 .button{
-    border: 2px solid red;
     width: 50%;
 }
 .woman{
@@ -112,4 +115,36 @@ header{
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+}
+.blank{
+    background-color: black;
+    width: 100%;
+    height: 200px;
+
+}
+.section{
+    position: relative;
+}
+.about{
+    display: flex;
+    width: 90%;
+    margin: 0px 60px 0px 60px;
+    position: absolute;
+    bottom: 0px;
+}
+.plan{
+
+    border: solid 2px red;
+    background-color: #8a968c;
+    padding: 40px;
+}
+.creative{
+    border: solid 2px red;
+    background-color: #e65d28;
+    padding: 40px;
+}
+.technical{
+    border: solid 2px red;
+    background-color: rgb(49, 46, 46);
+    padding: 40px;
 }
