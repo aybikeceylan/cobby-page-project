@@ -134,17 +134,14 @@ header{
 }
 .plan{
 
-    border: solid 2px red;
     background-color: #8a968c;
     padding: 40px;
 }
 .creative{
-    border: solid 2px red;
     background-color: #e65d28;
     padding: 40px;
 }
 .technical{
-    border: solid 2px red;
     background-color: rgb(49, 46, 46);
     padding: 40px;
 }
