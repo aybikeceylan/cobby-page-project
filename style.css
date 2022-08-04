@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 .container{
     background-image: url(https://www.uzaktanegitim.com/images/blog/muhendisler-ne-yapar-muhendis-turleri-ve-sorumluluklari.png);
     position: relative;
@@ -73,21 +76,18 @@ header{
 }
 .photo{
     display: flex;
+    margin: 100px;
 }
 .button{
     border: 2px solid red;
-    width: 30%;
+    width: 50%;
 }
 .woman{
-    width: 30%;
+    width: 20%;
 }
 .building{
     width: 30%;
 }
-
-
-
-
 
 .button1{
     background-color: #e65d28;
