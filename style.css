@@ -60,11 +60,29 @@ header{
     margin: 0px 60px 0px 60px;
 }
 .send{
+    display: flex;
     width: 33%;
     padding-left: 40px;
+    align-items: center;
 }
-.send .p1{
+.send div .p1{
     color: #dfe7e0;
+}
+.send img{
+    margin-right: 10px;
+}
+.photo{
+    display: flex;
+}
+.button{
+    border: 2px solid red;
+    width: 30%;
+}
+.woman{
+    width: 30%;
+}
+.building{
+    width: 30%;
 }
 
 
